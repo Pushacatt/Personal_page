@@ -6,10 +6,9 @@
     <title>SCANDI</title>
 </head>
 <body>
-  <header>
+  <div class="introduction"><header>
     <div class="header">
-      <img src="pictures/logo.svg" width="26" height="25" alt="логотип">
-      <img src="pictures/scandi.svg" width="62" height="13" alt="scandi">
+      <a href=""><img src="pictures/logo_scandi.svg" width="91" height="25" alt="логотип"></a>
       <nav>
         <ul>
               <li><a href="#about_us">О компании</a></li>
@@ -25,63 +24,66 @@
   </header>
   <main>
     <section>
-      <div  class="introduction">
       <h1>Поможем сделать вашу квартиру уютнее</h1>
       <p>Подбираем текстиль, мебель и аксессуары <br>под ваш интерьер, находим магазины <br>и помогаем организовать доставку</p>
-    <a href="#to_leave_a_request"><img src="pictures/Rectangle 128.svg" width="310" height="74" alt="Оставить заявку"></a>
+    <a href="#to_leave_a_request"><div class="rectangle"></div></a>
     </div>
     </section>
     <section id="about_us">
-    <div class="about_us">
+      <div  class="about_us">
     <h2>О НАС</h2>
     <img src="pictures/table.jpg" width="444" height="465" alt="Фото декорированного стола">
     <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии.</p>
     <p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»</p>
+      </div>
     <div class="archievements">
         <ul>
-            <li>5 лет опыта</li>
-            <li>100 проектов</li>
-            <li>10 наград</li>
+            <li><span class="number">5</span> лет опыта</li>
+            <li><span class="number">100</span> проектов</li>
+            <li><span class="number">10</span> наград</li>
         </ul>
-    </div>
+        </div>
     </section>
-    <section id="our_works">
+    <section id="our_works" class="our_works">
     <h2>НАШИ РАБОТЫ</h2>
-    <div class="our_works"></div>
-    <h3>Квартира-студия 30 кв.м.</h3>
-    <p>В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+    <h3 class="hover">Квартира-студия 30 кв.м.</h3>
+    <p class="hover">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+    <img src="pictures/bedroom.jpg" width="488" height="451" alt="Фото кухни">
     <img src="pictures/kitchen.jpg" width="692" height="451" alt="Фото кухни">
     <img src="pictures/room.jpg" width="692" height="451" alt="Фото комнаты">
     <img src="pictures/bathroom.jpg" width="488" height="451" alt="Фото ванной">
-    <p>Смотреть еще</p>
-    <a href="#"><img src="pictures/arrow.png" width="61" height="16" alt="Смотреть еще"></a>
+    <p class="more">Смотреть еще</p>
+    <a href="#"><img src="pictures/arrow.svg" width="61" height="16" alt="Смотреть еще"></a>
     </section>
     <div class="team_and_work">
     <section id="team">
         <h2>КОМАНДА</h2>
-        <table class="team">
-            <tr><td><img src="pictures/masha.jpg" width="320" height="249" alt="Маша"></td><td><img src="pictures/sasha.jpg" width="320" height="251" alt="Саша"></td><td><img src="pictures/katya.jpg" width="320" height="253" alt="Катя"></td></tr>
-            <tr><td>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается и помогает сделать вашу квартиру красивой и уютной.</td><td>С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы и ответит на все вопросы.</td><td>Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как обустроить дом так, чтобы вам понравилось.</td></tr>
-        </table>
+        <ul>
+          <li><img src="pictures/masha.jpg" width="320" height="249" alt="Маша"></li>
+          <li><img src="pictures/sasha.jpg" width="320" height="251" alt="Саша"></li>
+          <li><img src="pictures/katya.jpg" width="320" height="253" alt="Катя"></li>
+        </ul>
+        <p>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается и помогает сделать вашу квартиру красивой и уютной.</p>
+        <p>С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы и ответит на все вопросы.</p>
+        <p>Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как обустроить дом так, чтобы вам понравилось.</p>
     </section>
     <section id="how_do_we_work">
         <h2>КАК МЫ РАБОТАЕМ</h2>
-            <table class="how_do_we_work">
-            <tr><ol>
-                <td><li>1</li></td>
-                <td><li>2</li></td>
-                <td><li>3</li></td>
-                <td><li>4</li></td>
-            </ol></tr>
-            <tr><td>Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.</td>
-            <td>Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.</td>
-            <td>Находим нужные магазины, помогаем с доставкой и оплатой товаров.</td>
-            <td>Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</td>
-            </tr>
-        </table>
+                <ol>
+                <li><div class="circle"></div></li>
+                <li><div class="circle"></li>
+                <li><div class="circle"></li>
+                <li><div class="circle"></li>
+            </ol>
+            <ol> 
+            <li class="sequence">Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.</li>
+            <li class="sequence">Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.</li>
+            <li class="sequence">Находим нужные магазины, помогаем с доставкой и оплатой товаров.</li>
+            <li class="sequence">Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</li>
+            </ol>
     </section>
     </div>
-    <section id="reviews">
+    <section id="reviews" class="reviews">
       <h2>ОТЗЫВЫ</h2>
       <a href="#"><img src="pictures/arrow_left.svg" width="72" height="72" alt="Предыдущий отзыв"></a>
       <figure class="review">
@@ -96,26 +98,26 @@
       <img src="pictures/dining_room.jpg" width="407" height="272" alt="Фото столовой">
       <a href="#"><img src="pictures/arrow_right.svg" width="72" height="72" alt="Следующий отзыв"></a>
     </section>
-    <section id="to_leave_a_request">
-    <h2>ОСТАВИТЬ ЗАЯВКУ</h2>
+    <section id="to_leave_a_request" class="to_leave_a_request">
+    <h2 class="request">ОСТАВИТЬ ЗАЯВКУ</h2>
     <p>Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
     <form action="https://scandi-design.ru" method="get">
-        <label for="name">Ваше имя</label><br>
+        <label for="name" class="contacts">Ваше имя</label><br>
         <input type="text" id="name" name="name" required><br>
-        <label for="tel">Введите телефон</label><br>
+        <label for="tel" class="contacts">Введите телефон</label><br>
         <input type="text" id="tel" name="tel" required><br>
-        <input type="image" src="pictures/Rectangle 128.svg" width="310" height="74" alt="Оставить заявку">        
+        <input type="submit" value="Оставить заявку" class="submit">        
     </form>
     <img src="pictures/map.jpg" width="590" height="624" alt="Как нас найти">
     </section>
   </main> 
   <footer>
       <div class="footer">
-          <ul>
+          <address><ul>
         <li><a href="tel:+79818574624" class="tel">+7 (981) 857-46-24</a></li>
         <li>г. Санкт-петербург, ул. Большая Конюшенная, 19</li>
         <li>ИП Королёва А.А.</li>
-        </ul>
+        </ul></address>
       </div>
   </footer>
 </body>

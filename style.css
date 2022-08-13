@@ -1,15 +1,137 @@
 body {
-font-family: "Montserrat-Regular", "Arial", sans-serif;
-font-weight: 400;
+
 }
 
-.tel {
-text-decoration: none;
-color:black;
-}
 
 @font-face {
-font-family: "Montserrat-Regular";
-src: local("Montserrat-Regular"), url("fonts/Montserrat-Regular.woff2") format("woff2"), url("fonts/Montserrat-Regular.woff") format("woff");
+    font-family: "Montserrat-Regular";
+    src: local("Montserrat-Regular"), url("fonts/Montserrat-Regular.woff2") format("woff2"), url("fonts/Montserrat-Regular.woff") format("woff");
+    }
+    
+    @font-face {
+        font-family: "Montserrat-Medium";
+        src: local("Montserrat-Medium"), url("fonts/Montserrat-Medium.woff2") format("woff2"), url("fonts/Montserrat-Medium.woff") format("woff");
+        }
 
+h1 {
+font-family: "Montserrat-Regular", "Arial", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;
+line-height: 62px;
+color: #533738;
 }
+
+h2 {
+    font-family: "Montserrat-Regular", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    color: #533738; 
+    text-transform: uppercase;  
+}
+
+h2.request {
+    color: #ffffff; 
+}
+
+
+nav a, .tel {
+    font-family: "Montserrat-Regular", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738; 
+    text-decoration: none;
+    }
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0; 
+}
+
+p, figcaption, .contacts, address {
+    font-family: "Montserrat-Regular", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738; 
+}
+
+h3, .more, .archievements li {
+    font-family: "Montserrat-Medium", "Arial", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;   
+}
+
+.hover, .archievements li {
+    color: #ffffff;
+}
+
+li.sequence {
+    font-family: "Montserrat-Regular", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center; 
+    color: #533738; 
+}
+
+.contacts {
+color: #F6EDE9;
+}
+
+.number {
+    font-family: "Montserrat-Regular", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #8D7370;
+}
+
+.rectangle, .submit {
+    width: 309.14px;
+    height: 74px;
+    background-color:  #CC8B86;   
+}
+
+.submit {
+    border-style: none;
+    font-family: "Montserrat-Medium", "Arial", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center; 
+    color: #533738;
+}
+
+.introduction {
+    background-image: url("pictures/introduction.jpg");
+}
+
+.about_us, .our_works, .reviews, .footer {
+background-color: #E5E5E5;
+}
+
+.archievements,  .to_leave_a_request {
+    background-color: #8D7370;
+    }
+
+    .team_and_work {
+        background-color: #E2C4BA;
+        }
